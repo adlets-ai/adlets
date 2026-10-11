@@ -1,0 +1,31 @@
+{
+  "name": "adlets",
+  "version": "0.0.1",
+  "description": "Adlets: check that the ad blocks on your own pages are honestly labelled, mark outbound links rel=\"sponsored\" and reserve their size, and validate Adlets slot and offer files. Reads local files only; sends nothing.",
+  "keywords": [
+    "adlets",
+    "indieads",
+    "ads",
+    "sponsorship",
+    "lint",
+    "rel-sponsored",
+    "privacy"
+  ],
+  "license": "MIT",
+  "author": "Adlets",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "adlets": "bin/adlets.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

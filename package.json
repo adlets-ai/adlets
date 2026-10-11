@@ -1,0 +1,17 @@
+{
+  "name": "adlets-npm",
+  "private": true,
+  "description": "Workspace for the Adlets and IndieAds npm packages. Not published itself.",
+  "type": "module",
+  "workspaces": [
+    "packages/adlets",
+    "packages/indieads"
+  ],
+  "scripts": {
+    "test": "node --test packages/adlets/test/*.test.js",
+    "pack:check": "npm pack --dry-run --workspaces"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

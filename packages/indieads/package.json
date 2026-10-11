@@ -1,0 +1,27 @@
+{
+  "name": "indieads",
+  "version": "0.0.1",
+  "description": "IndieAds: the network's short name for the adlets command. Checks the ad blocks on your own pages and validates slot and offer files. Reads local files only; sends nothing.",
+  "keywords": [
+    "indieads",
+    "adlets",
+    "ads",
+    "sponsorship",
+    "lint"
+  ],
+  "license": "MIT",
+  "author": "Adlets",
+  "type": "module",
+  "bin": {
+    "indieads": "bin/indieads.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "adlets": "0.0.1"
+  }
+}
